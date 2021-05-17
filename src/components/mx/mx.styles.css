@@ -1,0 +1,59 @@
+.mainMx {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: black;
+  border-style: outset;
+  border-width: 2px;
+  background-color: cadetblue;
+  height: 150px;
+  width: auto;
+}
+
+.mxheader {
+  font-size: 25;
+  color: white;
+  border: white;
+  border-style: ridge;
+  text-align: center;
+  margin: 5px;
+  text-shadow: 1px 1px 2px black;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+
+.writeups {
+  border: white;
+  border-style: ridge;
+  margin: 5px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  text-shadow: 1px 1px 2px black;
+  font-weight: bolder;
+}
+
+.number {
+  font-size: 25px;
+  color: white;
+  border: white;
+  border-style: ridge;
+  text-align: center;
+  margin: 5px;
+  padding-top: 10px;
+  text-shadow: 1px 1px 2px black;
+  font-weight: bolder;
+}
+
+.limiting {
+  font-size: 25px;
+  color: white;
+  border: white;
+  border-style: ridge;
+  text-align: center;
+  margin: 5px;
+  padding-top: 10px;
+  text-shadow: 1px 1px 2px black;
+  font-weight: bolder;
+}

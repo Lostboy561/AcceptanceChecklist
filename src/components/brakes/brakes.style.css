@@ -1,0 +1,46 @@
+.mainBrakeDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: first baseline;
+  border: black;
+  border-style: outset;
+  border-width: 2px;
+  height: 100px;
+  width: auto;
+  background: rgb(194, 4, 89);
+  background: linear-gradient(
+    293deg,
+    rgba(194, 4, 89, 1) 0%,
+    rgba(242, 76, 162, 1) 100%
+  );
+}
+
+.header1 {
+  flex-grow: 1.5;
+  font-size: 35px;
+  color: white;
+  border: white;
+  border-style: ridge;
+  text-align: center;
+  margin: 5px;
+  padding-top: 10px;
+  text-shadow: 1px 1px 1px black;
+  justify-content: center;
+}
+
+.brakes {
+  flex-grow: 1.5;
+  color: white;
+  border: white;
+  border-style: ridge;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  text-shadow: 1px 1px 1px black;
+  font-size: 25px;
+  justify-content: center;
+}
+
+.inputTag {
+  padding: 10px;
+}

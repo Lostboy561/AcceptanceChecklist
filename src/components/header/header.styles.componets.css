@@ -1,0 +1,69 @@
+.mainHeaderDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: black;
+  border-style: outset;
+  border-width: 2px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    40deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(104, 105, 105, 1) 21%,
+    rgba(89, 89, 89, 1) 100%
+  );
+}
+
+.header {
+  font-size: 25;
+  color: white;
+  border: white;
+  border-style: ridge;
+  text-align: center;
+  margin: 5px;
+}
+
+.para {
+  font-size: 15;
+  color: lightcoral;
+}
+
+.name {
+  color: white;
+  font-size: 25px;
+  border: white;
+  border-style: ridge;
+  margin: 5px;
+  text-align: center;
+  padding-top: 25px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.nNumber {
+  color: white;
+  font-size: 25px;
+  border: white;
+  border-style: ridge;
+  margin: 5px;
+  text-align: center;
+  padding-top: 25px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.dayStart {
+  color: white;
+  font-size: 25px;
+  border: white;
+  border-style: ridge;
+  margin: 5px;
+  text-align: center;
+  padding-top: 25px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.box {
+  width: 125px;
+  height: 25px;
+  margin-top: 25px;
+  box-shadow: 1px 1px 1px 1px black;
+}

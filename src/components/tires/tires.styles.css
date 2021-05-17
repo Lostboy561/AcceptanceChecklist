@@ -1,0 +1,81 @@
+.mainTire {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: black;
+  border-style: outset;
+  border-width: 2px;
+  background: rgb(194, 91, 4);
+  background: linear-gradient(
+    103deg,
+    rgba(194, 91, 4, 1) 0%,
+    rgba(237, 165, 84, 1) 100%,
+    rgba(92, 50, 4, 1) 100%
+  );
+}
+
+.h1 {
+  color: white;
+  border: white;
+  border-style: ridge;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.pgraph {
+  color: lightcoral;
+}
+
+.left {
+  font-size: 25;
+  color: white;
+  border: white;
+  border-style: ridge;
+  text-align: center;
+  margin: 5px;
+  padding-top: 25px;
+  text-shadow: 1px 1px 1px black;
+}
+
+#LT {
+  font-size: 25px;
+}
+
+.right {
+  font-size: 25;
+  color: white;
+  border: white;
+  border-style: ridge;
+  text-align: center;
+  margin: 5px;
+  padding-top: 25px;
+  text-shadow: 1px 1px 1px black;
+}
+
+#RT {
+  font-size: 25px;
+}
+
+.nose {
+  font-size: 25;
+  color: white;
+  border: white;
+  border-style: ridge;
+  text-align: center;
+  margin: 5px;
+  padding-top: 25px;
+  text-shadow: 1px 1px 1px black;
+}
+
+#NT {
+  font-size: 25px;
+}
+
+.button {
+  color: black;
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 1px 1px 1px 1px white;
+}
