@@ -45,7 +45,7 @@ export class Manuals extends React.Component {
                 handleInputChange={this.handleInputChange} 
                 title="Avionic Manual(s):"
             />
-
+            
             <ButtonGroup
                 group="flight"
                 condition={this.state.flight}  
@@ -198,7 +198,7 @@ export class Manuals extends React.Component {
                 handleInputChange={this.handleInputChange} 
                 title="Emergency Exit Pin:"
              />
-
+           
              <ButtonGroup
                 group="pitot"
                 condition={this.state.pitot}  
@@ -343,8 +343,6 @@ export class Manuals extends React.Component {
                 </div>
             </form>
 
-
-            
             <h3 className="products">!!! Check for Expired Products !!!</h3>
 
             <form className="notes">
